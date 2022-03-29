@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="hu">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Évszakok</title>
+    <link rel="stylesheet" href="evszak.css">
+    <script src="evszak.js"></script>
+</head>
+<body>
+    <h1>Az év évszakjai és hónapjai</h1>
+    <div id="bal">
+        <h2>Évszakok</h2>
+        <table>
+            <tr>
+                <td onclick="honapjai('osz')">Ősz</td>
+            </tr>
+            <tr>
+                <td onclick="honapjai('tel')">Tél</td>
+            </tr>
+            <tr>
+                <td onclick="honapjai('tavasz')">Tavasz</td>
+            </tr>
+            <tr>
+                <td onclick="honapjai('nyar')">Nyár</td>
+            </tr>
+        </table>
+    </div>
+    <div id="kozep">
+        <h2>Hónapok</h2>
+        <ul id="honapok"></ul>
+    </div>
+
+    <div id="jobb">
+        <img id="honapkep" src="" alt="">
+    </div>
+    
+</body>
+</html>
